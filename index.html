@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+        <!-- boxicon css -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <header class="head">
+        <h1>Cake Diaries</h1>
+        <nav>
+            <ul class="nav-bar forMobile">
+                <li onclick= Hidebar()><a href="#"></a><i class='bx bx-x'></i></li>
+                <li> <a href="#home">Testimonials</a></li> 
+                <li> <a href="#product">Products</a></li> 
+                <li> <a href="#contact">Contact</a></li> 
+                <li class="cart"> <a href="#cart"><i class='bx bx-cart-add' ></i></a></li> 
+            </ul>
+            <ul class="nav-bar wideScreen">
+                <li class="hideIt"> <a href="#home">Testimonials</a></li> 
+                <li class="hideIt"> <a href="#product">Products</a></li> 
+                <li class="hideIt"> <a href="#contact">Contact</a></li> 
+                <li class="cart hideIt"> <a href="#cart"><i class='bx bx-cart-add' ></i></a></li> 
+                <li class="menuMobile" onclick= showSidebar()><a href="#"><i class='bx bx-menu'></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2><q>Happy Customers</q></h2>
+        <div class="message">
+            <div class="box">
+                <h6>We Bake <q>Memories</q></h6>
+                <p>Amazing Quality and professtional people. They provide best choices and their services are amazing. You can count on them. <br>
+                <span>@Selena White</span>
+                </p>
+            </div>
+            <div class="box">
+                <h6> We Bake <q>Love</q></h6>
+                <p>On my Wedding day, We Ordered severals sweets and "Main Cake" from Cake Diaries and they delivered the best quality products. <br>
+                <span>@ Jennifer Gomez </span></p>
+            </div>
+            <div class="box">
+                <h6> We Bake <q>Quality</q></h6>
+                <p>To be Honest, I am very satisfied with the services provided by Cake Diaries. The staff, the food, the management, everything was Perfect. <br>
+                <span>@ Arthur Page </span></p>
+            </div>
+        </div>
+</section>
+
+<section id="product">
+    <h2>Products</h2>
+    <div class="para">
+        <marquee behavior="scroll" direction="left">Black Friday Sale. Get 25% off on shopping over 1999.  Order Now!</marquee>
+    </div>
+    <div class="Product-container">
+        <div class="product-box">
+            <img src="./Products/blackCup.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>Cupcake</h5>
+                <p><i class='bx bx-rupee' ></i>175/pc</p>
+                <div class="option">
+                    <h6>5% off on 3 pieces</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/5donuts.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>Donuts</h5>
+                <p><i class='bx bx-rupee' ></i>99/pc</p>
+                <div class="option">
+                    <h6>10% off on 4 pieces</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/brownies.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>Brownies</h5>
+                <p><i class='bx bx-rupee' ></i>15/pc</p>
+                <div class="option">
+                    <h6>12% off on 3 boxes</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/Cake2.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>Creamy Cake</h5>
+                <p><i class='bx bx-rupee' ></i>50/pc</p>
+                <div class="option">
+                    <h6>3% off on 2 pieces</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/Ccake.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>ChocoCup</h5>
+                <p><i class='bx bx-rupee' ></i>75/pc</p>
+                <div class="option">
+                    <h6>6% off on 8 pieces</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/ccupcake.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>Cupcake</h5>
+                <p><i class='bx bx-rupee' ></i>55/pc</p>
+                <div class="option">
+                    <h6>7% off on 3 pieces</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/clava.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>Choco Lava</h5>
+                <p><i class='bx bx-rupee' ></i>40/pc</p>
+                <div class="option">
+                    <h6>9% off on 4 pieces</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/cookies.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>Cookies</h5>
+                <p><i class='bx bx-rupee' ></i>15/pc</p>
+                <div class="option">
+                    <h6>10% off on 3 boxes</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/crossP.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>CrossCup</h5>
+                <p><i class='bx bx-rupee' ></i>65/pc</p>
+                <div class="option">
+                    <h6>5% off on 3 pieces</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/Node.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>Cream Roller</h5>
+                <p><i class='bx bx-rupee' ></i>55/pc</p>
+                <div class="option">
+                    <h6>3% off on 5 pieces</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/pastryblack.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>Choco Forest</h5>
+                <p><i class='bx bx-rupee' ></i>99/pc</p>
+                <div class="option">
+                    <h6>8% off on 5 pieces</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/Cake2.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>Fresh Cake</h5>
+                <p><i class='bx bx-rupee' ></i>67/pc</p>
+                <div class="option">
+                    <h6>4% off on 3 pieces</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/blackCup.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>Choco Cup</h5>
+                <p><i class='bx bx-rupee' ></i>55/pc</p>
+                <div class="option">
+                    <h6>7% off on 5 pieces</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/clava.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>Choco Lava</h5>
+                <p><i class='bx bx-rupee' ></i>89/pc</p>
+                <div class="option">
+                    <h6>9% off on 3 pieces</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <img src="./Products/brownies.jpg" alt="Product" width="350px" height="370px">
+            <div class="details">
+                <h5>Brownies</h5>
+                <p><i class='bx bx-rupee' ></i>35/pc</p>
+                <div class="option">
+                    <h6>7% off on 2 boxes</h6>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+  </section>
+
+  <!-- footer design -->
+
+  <footer>
+    <div id="contact">
+        <p>All rights reserved | Hitesh Patil </p>
+        <div class="footer_icons">
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+            <a href="#"><i class='bx bxl-whatsapp-square'></i></a>
+        </div>
+    </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
